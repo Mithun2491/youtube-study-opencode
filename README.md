@@ -63,6 +63,12 @@ pip install requests yt-dlp
 ```powershell
 Copy-Item .env.example .env
 notepad .env
+
+OPENAI_API_KEY=your key [free api - open router fr example]
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+OPENAI_MODEL=nvidia/nemotron-3.5-super-vl:free
+
+
 ```
 
 Fill in your OpenRouter key. The `.env` file is ignored by git and is never uploaded.
